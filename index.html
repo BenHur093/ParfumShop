@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ParfumShop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
+
+    <!--Itt lesz a felhivas-->
+
+    <div class="felhivas">
+        <p>Nyári akciónk keretein belül most <br> 20%- minden termékünkre!</p>
+    </div>
+    <!--Felhivas vege-->
+
+    <!--Itt kezdodik a navbar-->
+
+    <div class="menu-icon" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div id="side-menu" class="side-menu">
+        <div class="close-item" onclick="closeMenu()">&times;</div>
+        <a href="">Férfi Parfümök</a>
+        <a href="">Női Parfümök</a>
+        <a href="">Márkák</a>
+        <a href="">Arcápolási Termékek</a>
+        <a href="">Hajápolási Termékek</a>
+        <a href="">Rólunk</a>
+        <a href="">Kapcsolat</a>
+
+        <div class="nav-links">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+
+        </div>
+    </div>
+
+        <div class="menu-icons">
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-regular fa-heart"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        
+
+
 </body>
+
 </html>

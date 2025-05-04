@@ -1,0 +1,110 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media (max-width:600px) {
+
+    
+
+    .felhivas {
+        background-color: cyan;
+        width: 100%;
+        text-align: center;
+        height: 5vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+
+    .side-menu {
+        height: 40%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: cyan;
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 100px;
+        z-index: 5;
+        width: 0;
+
+    }
+
+    .side-menu a {
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #333;
+        display: block;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+
+
+    }
+
+    .nav-links {
+        display: flex;
+    }
+        
+
+    .nav-links a {
+        font-size: 17px;
+        margin: 0;
+        padding: 0;
+        margin-left: 7%;
+        margin-top: 15%;
+        
+    }
+
+    .close-item {
+        position: absolute;
+        font-size: 36px;
+        cursor: pointer;
+        right: 15px;
+        margin-top: -30%;
+
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+
+
+    }
+
+    .menu-icon i {
+        font-size: 25px;
+
+    }
+
+    .menu-icons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -5%;
+        gap: 5px;
+        font-size: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+
+
+
+    }
+
+    .menu-icons i {
+        color: black;
+
+    }
+
+}
