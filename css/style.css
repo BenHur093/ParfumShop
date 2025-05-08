@@ -108,14 +108,22 @@ body {
 
     }
 
-    .search-bar {
-        width: 300px;
-        margin-left: 10%;
-        margin-right: 5%;
-        margin-top: 2%;
-        padding: 5px 20px;
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    .search-bar{
+        width: 300px;
+        margin-top: 2%;
+        padding: 5px 20px;
+        justify-content: center;
+        display: grid;
+       
+    }
+
+  
     .fooldal-kep {
         text-align: center;
         margin-top: 5%;
