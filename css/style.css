@@ -7,7 +7,7 @@ body {
 
 @media (max-width:600px) {
 
-    
+
 
     .felhivas {
         background-color: cyan;
@@ -54,7 +54,7 @@ body {
     .nav-links {
         display: flex;
     }
-        
+
 
     .nav-links a {
         font-size: 17px;
@@ -62,7 +62,7 @@ body {
         padding: 0;
         margin-left: 7%;
         margin-top: 15%;
-        
+
     }
 
     .close-item {
@@ -105,6 +105,102 @@ body {
     .menu-icons i {
         color: black;
 
+
+    }
+
+    .search-bar {
+        width: 300px;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 2%;
+        padding: 5px 20px;
+    }
+
+    .fooldal-kep {
+        text-align: center;
+        margin-top: 5%;
+
+    }
+
+    .fooldal-kep img {
+        width: 400px;
+        border-radius: 15px;
+    }
+
+
+
+    .markak {
+        margin-top: 10%;
+    }
+
+
+
+    .markak ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-right: 12%;
+        margin-left: 5%;
+
+    }
+
+    .markak ul li {
+        border: 1px solid;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+
+
+    .markak ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 11px;
+
+    }
+
+    .termek_header {
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 20%;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .product img {
+        width: 180px;
+    }
+
+    .product h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .product p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .product {
+        text-align: center;
+        margin-top: 5%;
     }
 
 }
